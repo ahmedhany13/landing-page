@@ -52,13 +52,6 @@ document.addEventListener('scroll', function(event1) {
 
 for(let i = 0 ; i < sectionNo ; i++){
   let li = document.createElement('li');
-  //li.textContent = `list item no ${i}`;
-  li.style.color = 'black';
-  li.style.border = '2px solid powderblue';
-  li.style.padding = '10px';
-  li.style.margin = '24px';
-  li.style.backgroundColor = 'LightSeaGreen';
-
   list.appendChild(li);
 }
 
