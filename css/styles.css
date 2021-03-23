@@ -68,20 +68,18 @@ section {
     padding-left: 0;
     margin: 0;
     text-align: right;
-    list-style-type: circle;
     background-color: rgba(0, 128, 128, 1);
 
 }
 
 .navbar__menu li {
     display: inline-block;
+    color: black;
+    border: 1.5px solid powderblue;
+    padding: 7px;
+    margin: 12px;
+    backgroundColor : 'LightSeaGreen';
 }
-@media only screen and (max-width: 600px){
-  .navbar__menu li {
-      display: block;
-  }
-}
-
 
 .navbar__menu .menu__link {
     display: block;
@@ -95,6 +93,20 @@ section {
     background: #333;
     color: #fff;
     transition: ease 0.3s all;
+}
+@media only screen and (max-width: 600px){
+  .navbar__menu li {
+    border: 1px solid powderblue;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+
+
+  }
+  .navbar__menu .menu__link {
+      padding: 0.01em;
+  }
+
 }
 
 a.active {
